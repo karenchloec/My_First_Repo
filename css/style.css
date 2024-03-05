@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+nav {
+    background-color: gray;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 800;
+}
+
+nav ul li {
+    background-color: darkblue;
+    display: inline-block;
+    padding: 20px 40px;
+    color: white;
+
+}
+
+.bio {
+    width: 29%;
+    float: left;
+    height: 100%;
+    border: 1px black solid;
+}
+.story {
+    float: right;
+    width: 68%;
+    height: auto;
+    padding-left: 2%;
+    padding-top: 2%;
+    border: 1px black solid;
+}
+
+.stats {
+    width: 80%;
+    margin:  auto;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.statslist li{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.list li:first-child {
+    font-weight: 700;
+}
+
+.leftfloat {
+    float: left;
+    padding-right: 20px;
+}
+
+.gallery {
+    padding: 10px;
+}
